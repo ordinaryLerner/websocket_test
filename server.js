@@ -1,8 +1,8 @@
 const WebSocket = require('ws');
 
 // const wss = new WebSocket.Server({ port: 8080 });
-// const clients = new Map();
-// const rooms = new Map();
+const clients = new Map();
+const rooms = new Map();
 
 // console.log('聊天室服务端已启动，地址: ws://localhost:8080');
 const PORT = process.env.PORT || 8080;
